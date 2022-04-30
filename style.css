@@ -1,0 +1,33 @@
+body{
+    text-align:center;
+    background-color:rgba(125, 224, 200, 0.658);
+
+}
+
+h1{
+    background-color:cornflowerblue;
+    color:burlywood;
+
+}
+#show_sketch{
+    float:right;
+}
+p{
+    color:white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+canvas{
+    border:solid whitesmoke;
+    margin-top:10px;
+    border-radius:20px;
+    animation-name:canvas_background;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes canvas_background{
+    from{box-shadow: 1px 5px 15px rgb(0, 174, 255);}
+    to{box-shadow: 1px 5px 15px rgb(222, 223, 222);}
+}
